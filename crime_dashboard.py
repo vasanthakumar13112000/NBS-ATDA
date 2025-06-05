@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-st.title("UK Crime Data Dashboard")
+st.title("GWENT Crime Data Dashboard")
 
 # Load cleaned data
 df = pd.read_csv("cleaned_crime_data.csv")
